@@ -32,7 +32,6 @@ fetchMyIP((error, result1) => {
           console.log(`Next pass at ${datetime} for ${duration} seconds!`);
         }
       };
-
       nextISSTimesForMyLocation((error, nextPasses) => {
         if (error) {
           return console.log("It didn't work!", error);
